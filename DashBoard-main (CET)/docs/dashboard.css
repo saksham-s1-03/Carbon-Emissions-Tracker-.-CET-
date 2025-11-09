@@ -1,0 +1,172 @@
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #27ae60;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+/* Button styles */
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #27ae60;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.cta-button:hover {
+    background: #219150;
+    transform: translateY(-2px);
+}
+
+/* Section styles */
+section {
+    padding: 40px 0;
+    background-color: #ffffff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    border-bottom: 2px solid #27ae60;
+    padding-bottom: 10px;
+}
+
+/* Metric styles */
+.metric {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.metric h3 {
+    font-size: 1.5em;
+    color: #27ae60;
+}
+
+.metric p {
+    font-size: 1.2em;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Footer styles */
+footer {
+    background: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 30px 0;
+    }
+
+    header {
+        padding: 50px 15px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .signup-form {
+        padding: 20px;
+    }
+    
+    .cta-button {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .signup-form {
+        padding: 15px;
+    }
+}
+

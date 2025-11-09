@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sustainability Dashboard</h1>
+            <p>Monitor your logistics operations and make eco-friendly decisions.</p>
+            <a href="feature.html" class="cta-button" id="ex-feature">Explore Features</a>
+        </div>
+    </header>
+
+    <section id="metrics">
+        <div class="container">
+            <h2>Key Metrics</h2>
+            <div class="metric">
+                <h3>Total Carbon Emissions</h3>
+                <p id="carbon-emissions">0 kg CO<sub>2</sub></p>
+            </div>
+            <div class="metric">
+                <h3>Fuel Usage</h3>
+                <p id="fuel-usage">0 liters</p>
+            </div>
+            <div class="metric">
+                <h3>Operational Efficiency</h3>
+                <p id="efficiency">0%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <div class="container">
+            <h2>AI-Driven Recommendations</h2>
+            <ul id="recommendations-list">
+                <li>Optimize your routes for reduced fuel consumption.</li>
+                <li>Consider upgrading to more fuel-efficient vehicles.</li>
+                <li>Implement eco-driving training for your drivers.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="reporting">
+        <div class="container">
+            <h2>Blockchain Reporting</h2>
+            <p>All your sustainability efforts are securely recorded and verifiable through blockchain technology. Review your compliance reports below:</p>
+            <button class="cta-button" id="view-reports">View Compliance Reports</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AI-Powered Sustainability Dashboard. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for opening the compliance report
+        document.getElementById('view-reports').addEventListener('click', function() {
+            window.open('report.html', '_blank'); // Opens the compliance report in a new tab
+        });
+    </script>
+    <!-- <script>
+        // JavaScript for opening the compliance report
+        document.getElementById('ex-feature').addEventListener('click', function() {
+            window.open('feature.html', '_blank'); // Opens the compliance report in a new tab
+        });
+    </script> -->
+
+</body>
+</html>
