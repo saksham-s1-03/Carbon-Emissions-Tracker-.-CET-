@@ -12,7 +12,3 @@ Energy Efficiency Recommendations: Receive data-driven insights to optimize oper
 Blockchain for Data Integrity: Ensure transparent and immutable tracking of carbon emissions through blockchain technology, providing verifiable records for all stakeholders.
 
 Interactive Dashboard: A user-friendly interface with data visualizations, charts, and tables to help users understand emission trends and make informed decisions.
-Authors--
-AAron Willy
-Saiyam Shukla
-Samarth Gungal. 
